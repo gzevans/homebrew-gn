@@ -22,6 +22,7 @@ class Gn < Formula
     system "ninja", "-C", "out"
     system "mkdir", "-p", "#{prefix}/bin"
     system "cp", "out/gn", "#{prefix}/bin/"
+    system "cp", "out/gn_unittests", "#{prefix}/bin/"
   end
 
   test do
@@ -34,6 +35,6 @@ class Gn < Formula
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system "#{bin}/program", "do", "something"`.
-    system "out/gn_unittests"
+    system "$#{bin}/gn_unittests"
   end
 end

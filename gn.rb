@@ -1,8 +1,8 @@
 class Gn < Formula
   desc "GN is a meta-build system that generates build files for Ninja."
   homepage "https://gn.googlesource.com/gn"
-  url "https://github.com/gtalusan/gn/archive/refs/tags/v20220817.tar.gz"
-  sha256 "1738738bf86be47e177e83d2ea547aee339260e0a6d89c3c4c0b275d9e569e9b"
+  url "https://gn.googlesource.com/gn/+archive/refs/heads/main.tar.gz"
+  sha256 "969952012c53768e0a866ca1b5a6558a6d632145a134586c2663fb6752dcf533"
   license "BSD-3-Clause"
 
   depends_on "python@3.10" => :build

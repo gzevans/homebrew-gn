@@ -2,7 +2,7 @@ class Gn < Formula
   desc "GN is a meta-build system that generates build files for Ninja."
   homepage "https://gn.googlesource.com/gn"
   url "https://gn.googlesource.com/gn/+archive/refs/heads/main.tar.gz"
-  sha256 "969952012c53768e0a866ca1b5a6558a6d632145a134586c2663fb6752dcf533"
+  sha256 "2e245ce5cbc275f6924ce09d8194702691fc91d88e8e94c4e403cf96c81db887"
   license "BSD-3-Clause"
   version '2025.07.02'
 

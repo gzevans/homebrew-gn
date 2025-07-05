@@ -4,6 +4,7 @@ class Gn < Formula
   url "https://gn.googlesource.com/gn/+archive/refs/heads/main.tar.gz"
   sha256 "969952012c53768e0a866ca1b5a6558a6d632145a134586c2663fb6752dcf533"
   license "BSD-3-Clause"
+  version '2025.07.02
 
   depends_on "python@3.10" => :build
   depends_on "ninja" => :build
